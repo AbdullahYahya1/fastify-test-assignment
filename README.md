@@ -63,6 +63,12 @@ Body:
   "password": "password123"  # Minimum 6 characters
 }
 ```
+Response:
+```json
+{
+    "message": "User registered successfully"
+}
+```
 
 ### Login
 ```sh
