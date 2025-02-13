@@ -82,6 +82,7 @@ Body:
 Response:
 ```json
 {
+  "message": "Login successful",
   "accessToken": "eyJhbGci...",
   "refreshToken": "eyJhbGci..."
 }
@@ -96,6 +97,7 @@ Authorization: Bearer <access_token>
 Response:
 ```json
 {
+  "message": "Profile retrieved successfully",
   "id": 1,
   "email": "user@example.com"
 }
